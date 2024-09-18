@@ -5,24 +5,28 @@ body{
 #header{
     text-align: center;
     background-color: #AB183D;
-    margin: 0 140px;
+    margin: 0 20vw;
 }
 #logo{
-    padding-left: 20px;
-    padding-top: 10px;
-    img{height:130px;
-    width:149;}
-    align-items: center;
+    width: 20vw;
+    padding-bottom: 8vh;
+    img{height:10vh;
+    width:10vw;}
+    align-items:center;
 }
 #title
 {
     font-weight:bolder;
     border: 1px solid black;
-    height: 150px;
-    display: block;
+    height: 25vh;
+    display:flex;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top:30px;
+    padding-top:5vh;
+}
+#sr{
+    font-size: 4vh;
+    padding-left: 5vw;
 }
 
 /* menu */
@@ -40,10 +44,10 @@ body{
 }
 li{
     display: inline-block;
-    font-size: 12px;
+    font-size: 2vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 20px;
-   
+    margin-left: 2vw;
+    padding-top: 2vh;
 }
 /* links */
 #main{
@@ -58,7 +62,7 @@ font-family:Arial, Helvetica, sans-serif;
 }
 #links{
     font-weight: bold;
-    font-size:21px;
+    font-size:150%;
     text-decoration-color: blue;
     color: blue;
     a:visited{
@@ -67,20 +71,20 @@ font-family:Arial, Helvetica, sans-serif;
 }
 #slide-link-1{
     color: blue;
-    font-size: 20px;
+    font-size: 3vh;
     text-decoration: none;
     a:visited{
         color: blue;
     }
     text-align: center;
     font-weight: bold;
-
-    position: relative;
+    margin-top: 2vh;
+    position:relative;
     animation: slidings 1.5s linear 0s infinite alternate;
     }
     @keyframes slidings{
-        from {left:-50px;}
-        to {left:50px;}
+        from {left:0px;}
+        to {left:8vw;}
     }
     #slide-link-2{
         color: blue;
@@ -89,33 +93,34 @@ font-family:Arial, Helvetica, sans-serif;
             color: blue;
         }
         font-weight: bold;
+        margin-top: 2vh;
         position: relative;
         animation: sliding 4s linear 0s infinite alternate;
         }
         @keyframes sliding{
-            from {left:-200px;}
-            to {left:230px;}
+            from {left:-15vw;}
+            to {left:20vw;}
         }
         #links:hover{
             animation:step-end;
         }
-
-        
         #tools{
-            margin-top: 20px;
+            margin-top: 5vh;
             background-color: blue;
             display: inline-block;
-            margin-left: 500px;
+            margin-left: 35vw;
         }
         #head{
             text-decoration-style: none;
             display:flex;
             align-items: center;
             justify-content: center;
-            color:#AB183D;
-            font-weight: bold;
-            font-size: 24px;
-            height: 50px;
-            width: 350px;
+            height: 10vh;
+            width: 25vw;
             font-family:sans-serif;
+        }
+        #abc{
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size:3vh;
         }
